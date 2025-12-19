@@ -4,8 +4,11 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 ## Features
 
-- View all available extracurricular activities
-- Sign up for activities
+- View all available extracurricular activities (DB-backed)
+- Sign up for activities (persisted)
+
+## Persistence
+This project now uses a SQLite database (`mergington.db`) in the repository root to persist Activities, Students, and Participations. On first run the database is seeded from `src/activities.json`.
 
 ## Getting Started
 
